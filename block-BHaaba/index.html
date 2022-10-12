@@ -1,0 +1,67 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using float</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+ <body>
+     <header>
+          <div class="container" >
+             <a class="brand" href="index.html">
+                  <img src="assets/media/logo01.svg" alt="logo">
+             </a>
+         
+              <nav class="nav">
+                 <a href="#">About</a>
+                 <a href="#">Services</a>
+                 <a href="#">Contact</a>
+              </nav>
+            </div>
+     </header>
+     <main>
+         <section  class="clearfix">
+                 <article class="container">
+                       <div class="child-box">
+                             <img src="assets/media/img01.jpg" alt="image">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas autem blanditiis harum magni labore officiis
+                             accusamus. Deleniti minus labore doloribus sed? Eius vel debitis quod molestias ipsa cumque soluta voluptatem ullam
+                              ipsam earum impedit facilis consequuntur reiciendis consequatur, unde totam.</p>
+                           </div>
+                        
+                           <div  class="child-box">
+                              <img src="assets/media/img02.jpg" alt="image">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas autem blanditiis harum magni labore officiis
+                               accusamus. Deleniti minus labore doloribus sed? Eius vel debitis quod molestias ipsa cumque soluta voluptatem ullam
+                               ipsam earum impedit facilis consequuntur reiciendis consequatur, unde totam.</p>
+                           </div>
+                           <div class="child-box">
+                           <img src="assets/media/img03.jpg" alt="image">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo odio placeat ipsam officiis ab quod adipisci
+                            dignissimos reprehenderit? Iusto architecto dolorum impedit delectus molestiae unde! Expedita ratione minima sunt
+                            officiis soluta quod recusandae, rerum voluptates veritatis accusantium perspiciatis iusto illo.</p>
+                              </div>
+                             </article>
+         </section>
+     </main>
+
+     <footer class="container">
+          <nav class="footer-box">
+              <a href="https://twiiter.com">Twitter</a>
+              <a href="https://facebook.com">facebook</a>
+              <a href="https://instagram.com">instagram</a>
+          </nav>
+     </footer>
+ </body>
+</html>
