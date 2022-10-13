@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-----------custom styles-----------------*/
+
+/* img{
+    width:100px;
+    height:30px;
+} */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Oswald', sans-serif; */
+}
+body{
+    line-height: 1.4;
+    position: relative;
+}
+.header{
+  
+    height: 100px;
+    width: 100%;
+    height:80px;
+    line-height: 80px;
+    /* background-color: bisque; */ 
+}
+.headwrap{
+     position:fixed;
+    width:100%;
+    top:0; 
+    background-color: bisque;
+    /* height: auto; */
+     /* z-index: 5; */
+}  
+.clearfix::before, .clearfix::after{
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear:both;
+}
+.container{
+    max-width:90%;
+    margin:0 auto;
+    /* border:1px solid red;  */
+    font-size: 0;
+   
+}
+  .brand{
+     float:left; 
+   
+}   
+.brand img{
+    vertical-align: middle;
+    
+}  
+ .nav{
+ float:right;
+ 
+}  
+
+.nav a{
+    text-align: right;
+    vertical-align:middle;
+    text-decoration: none;
+    font-size: 18px;
+    margin:0 0 0 18px;
+  
+}
+.col{
+    width:47%;
+    /* border:1px solid black; */
+    float:left;
+    margin:1.5%;
+    
+    /* margin-top: 100px;     */
+}
+h1{
+    font-size: 34px;
+    color: black;
+}
+ .col p{
+    font-size: 18px;
+    color: black;
+    margin:10px 0 0 0;
+} 
+.col img{
+    width:100%;
+    height:100%;
+}
+.col-2{
+    float:left;
+    width:30.333%;
+    border:1px solid black;
+    /* margin-top: 20px; */
+    margin:1.5%;
+}
+.col-2 img{
+    /* image-rendering: high-quality; */
+    image-rendering: -webkit-optimize-contrast;
+    width:100%;
+    height:250px;
+}
+.footer{
+    padding:10px;
+    color:black;
+    background-color: bisque;
+}
+.container p{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.btn{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+}
+button{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+}
